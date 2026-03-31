@@ -1,0 +1,365 @@
+/* בסיס ורספונסיבי */
+html,
+body,
+#root {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.learning-page {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #90caf9;
+}
+
+/* עננים */
+.big-cloud-learning-page-left,
+.big-cloud-learning-page-right,
+.small-cloud-learning-page-left,
+.small-cloud-learning-page-right {
+    position: absolute;
+}
+
+.big-cloud-learning-page-left {
+    width: 16%;
+    left: 8%;
+    top: 4%;
+    animation: cloudMove 15s linear infinite alternate;
+}
+
+.big-cloud-learning-page-right {
+    width: 16%;
+    right: 8%;
+    top: 4%;
+    animation: cloudMove 13s linear infinite alternate;
+}
+
+.small-cloud-learning-page-left {
+    width: 12%;
+    left: 2%;
+    top: 35%;
+    animation: cloudMove 20s linear infinite alternate;
+}
+
+.small-cloud-learning-page-right {
+    width: 12%;
+    right: 2%;
+    top: 35%;
+    animation: cloudMove 18s linear infinite alternate;
+}
+
+@keyframes cloudMove {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(40px);
+    }
+}
+
+.logo-bahad13-learning-pages {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    width: 6%;
+    height: auto;
+    z-index: 15;
+}
+
+.till-logo-white-learning-pages {
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    width: 7%;
+    height: auto;
+    z-index: 20;
+}
+
+/* הרכב */
+.car-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 90vh;
+    /* גובה הרכב */
+    pointer-events: none;
+    /* כדי שהרכב לא יפריע ללחיצות */
+}
+
+.car-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* ניווט לסליידים רגילים */
+.nav-buttons-container {
+    position: absolute;
+    bottom: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 25;
+    direction: ltr;
+}
+
+.btn-nav {
+    width: clamp(60px, 7vw, 110px);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-nav:hover {
+    /* transform: scale(1.08); */
+    transform: translateY(-3px) scale(1.1);
+    /* box-shadow: 0 10px 18px rgba(0,0,0,0.25); */
+}
+
+.btn-nav:active {
+    transform: translateY(0) scale(0.97);
+}
+
+/* .btn-nav.disabled {
+    opacity: 0.4;
+    pointer-events: none;
+} */
+
+.btn-nav.disabled {
+    opacity: 0.4;
+    pointer-events: none;
+    filter: grayscale(100%);
+}
+
+/* סלייד רגיל */
+/* .slide-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+} */
+
+.slide-wrapper {
+    position: absolute;
+
+    inset: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 20;
+}
+
+/* Overlay לשאלות */
+.question-overlay-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+}
+
+/* רקע הגראז' */
+/* .garage-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+} */
+
+/* .garage-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  transform: translateY(-100%);
+  opacity: 0;
+  animation: slideDownGarage 0.5s forwards;
+}
+
+@keyframes slideDownGarage {
+  from { transform: translateY(-100%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+} */
+
+.garage-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* .safe-area {
+  position: relative;
+  top: 0%;
+  width: 60%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vh;
+  z-index: 20;
+} */
+
+/* .safe-area {
+    position: absolute;
+
+    top: 14%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: min(60vw, 720px);
+    height: min(45vh, 420px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: clamp(10px, 1.5vh, 18px);
+
+    z-index: 20;
+} */
+
+/* .safe-area {
+
+    position: absolute;
+
+    left: 49.5%;
+    transform: translateX(-50%);
+
+    bottom: 13%;
+
+    width: 38%;
+    height: 64%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    gap: clamp(10px, 1.5vh, 18px);
+
+    z-index: 20;
+
+overflow:hidden;
+
+} */
+
+.safe-area {
+
+    position: absolute;
+
+    left: 49.5%;
+    transform: translateX(-50%);
+
+    bottom: 13%;
+
+    /* גדל עם המסך והרכב */
+    width: clamp(420px, 38vw, 720px);
+    height: clamp(260px, 64vh, 520px);
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+    align-items: center;
+
+    /* padding-top:clamp(8px,2vh,18px); */
+
+    gap: clamp(10px, 1.5vh, 18px);
+
+    z-index: 20;
+}
+
+.safe-area>* {
+    width: 100%;
+    height: 100%;
+}
+
+.garage-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+.garage-wrapper.slide-down {
+    animation: slideDownGarage 1s forwards;
+}
+
+.garage-wrapper.slide-up {
+    animation: slideUpGarage 1s forwards;
+}
+
+@keyframes slideDownGarage {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideUpGarage {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+}
+
+.sign-photo {
+    position: absolute;
+    right: 4%;
+    bottom: 0%;
+    height: 45%;
+    z-index: 20;
+}
+
+.vehicle-game-overlay {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    z-index: 2000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

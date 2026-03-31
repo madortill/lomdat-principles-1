@@ -1,0 +1,562 @@
+[
+    {
+        "id": 1,
+        "type": "normal",
+        "header": "רכב חום - הגדרה",
+        "text": "כלי רכב שהוגדר כייעודי למשימה ספציפית ולמטרה מוגדרת, המחייבת שימוש בו. כל רכב שלוחית הרישוי שלו בצבע שחור ולפני המספר מופיעה האות צ’ מוגדר כרכב חום. רכב זה אינו חייב להיות בצבע חום.",
+        "image": "media/brown-car-plate.png"
+    },
+    {
+        "id": 2,
+        "type": "normal",
+        "header": "רכב לבן/צמוד - הגדרה",
+        "text": "כלי רכב שהוצמד לאיש קבע מתפקיד המ”פ (מפקד פלוגה). רכב זה הינו אישי וצמוד לאיש הקבע לכל נסיעה ושימוש לצורך צבאי או אישי. לרכב זה לוחית רישוי צהובה וסימן זיהוי צבאי מתאים. רכב זה אינו חייב להיות בצבע לבן.",
+        "image": "media/white-car-plate.png"
+    },
+    {
+        "id": 3,
+        "type": "flipCards",
+        "header": "זיהוי רכב צבאי",
+        "text": "כאשר לרכב יש לוחית רישוי צהובה, נוכל לזהות אם הוא רכב צבאי לפי מספר דגשים. לחצו על הקלפים כדי לגלות!",
+        "cards": [
+            {
+                "front": {
+                    "text": "דגש 1",
+                    "image": "media/police-siren-light.png"
+                },
+                "back": {
+                    "text": "רכבים ספציפיים אשר נפוצים בצה”ל (נרחיב עליהם בהמשך).",
+                    "image": "media/how-i-drive-sticker-2.jpeg"
+                }
+            },
+            {
+                "front": {
+                    "text": "דגש 2",
+                    "image": "media/police-siren-light.png"
+                },
+                "back": {
+                    "text": "נוהל 6 - מדבקת “איך אני נוהג?” מתחת ללוחית הרישוי.",
+                    "image": "media/how-i-drive-sticker-1.jpeg"
+                }
+            },
+            {
+                "front": {
+                    "text": "דגש 3",
+                    "image": "media/police-siren-light.png"
+                },
+                "back": {
+                    "text": "מדבקת לחץ אוויר בצידו התחתון והשמאלי של השמשה הקדמית.",
+                    "image": "media/air-pressure-sticker.jpeg"
+                }
+            },
+            {
+                "front": {
+                    "text": "דגש 4",
+                    "image": "media/police-siren-light.png"
+                },
+                "back": {
+                    "text": "מדבקת אישור בדיקת חורף בצידו התחתון והשמאלי של השמשה הקדמית.",
+                    "image": "media/winter-sticker-1.jpeg"
+                }
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "type": "vehicleTypes",
+        "header": "זיהוי רכב צבאי - רכבים צמודים",
+        "text": "רכבי מ''פ (מפקדי פלוגה)",
+        "image": "media/mp.svg",
+        "vehicles": [
+            {
+                "title": "קיה ריו",
+                "image": "media/kaya-rio.jpeg"
+            },
+            {
+                "title": "יונדאי i20",
+                "image": "media/undai-i20.jpeg"
+            },
+            {
+                "title": "סיאט איביזה",
+                "image": "media/siat-ibiza.jpeg"
+            },
+            {
+                "title": "סקודה קאמיק",
+                "image": "media/skoda-kamik.jpeg"
+            },
+            {
+                "title": "סקודה סקאלה",
+                "image": "media/skoda-skala.jpeg"
+            },
+            {
+                "title": "סקודה פאביה",
+                "image": "media/skoda-pabia.jpeg"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "type": "vehicleTypes",
+        "header": "זיהוי רכב צבאי - רכבים צמודים",
+        "text": "רכבי סא''ל (סגן אלוף)",
+        "image": "media/saal.svg",
+        "vehicles": [
+            {
+                "title": "צ'רי (סא''ל בעל 3 ילדים ומעלה)",
+                "image": "media/cherry.jpeg",
+                "extraImage": "media/baby.svg"
+            },
+            {
+                "title": "קיה נירו",
+                "image": "media/kia-niro.jpeg"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "type": "vehicleTypes",
+        "header": "זיהוי רכב צבאי - רכבים צמודים",
+        "text": "סוגי רכבים לפי דרגות",
+        "image": null,
+        "vehicles": [
+            {
+                "title": "יונדאי אלנטרה - אלוף משנה",
+                "image": "media/undai-alnetra.jpeg",
+                "badge": "media/alufMishne.svg"
+            },
+            {
+                "title": "סקודה סופרב - תת אלוף",
+                "image": "media/skoda-suparv.jpeg",
+                "badge": "media/TtAluf.svg"
+            },
+            {
+                "title": "טויוטה לנד קרוזר - אלוף",
+                "image": "media/toyota-land-kruzer.jpeg",
+                "badge": "media/Aluf.svg"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "type": "vehicleTypes",
+        "header": "זיהוי רכב צבאי - רכבי יחידה",
+        "text": "סוגי רכבי יחידה",
+        "image": "media/work-tools2.svg",
+        "vehicles": [
+            {
+                "title": "אופל קומבו",
+                "image": "media/opel-combo.jpeg"
+            },
+            {
+                "title": "רנו קנגו",
+                "image": "media/reno-kango.jpeg"
+            },
+            {
+                "title": "סיטוראן ברלינגו",
+                "image": "media/sitruan-brlingo.jpeg"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "type": "twoOptions",
+        "header": "זיהוי רכב צבאי - ניידות מצ",
+        "text": "ניידות מחולקות ל2 קבוצות - סמויות וגלויות. לחצו על הצקלקות כדי לזהות!",
+        "options": [
+            {
+                "type": "images",
+                "title": "ניידות גלויות",
+                "image": "media/police-siren-light.png",
+                "popup": {
+                    "type": "images",
+                    "title": "ניידות גלויות",
+                    "text": "לחצו על התמונות כדי להגדיל",
+                    "image": [
+                        "media/police-car-galui-2.jpeg",
+                        "media/police-car-galui-3.jpeg",
+                        "media/police-car-galui-4.jpeg"
+                    ]
+                }
+            },
+            {
+                "type": "images",
+                "title": "ניידות סמויות",
+                "image": "media/Police-siren-light-samui.svg",
+                "popup": {
+                    "type": "images",
+                    "title": "ניידות סמויות",
+                    "text": "לחצו על התמונות כדי להגדיל",
+                    "image": [
+                        "media/police-car-samui-1.jpeg",
+                        "media/police-car-samui-2.jpeg"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "type": "vehicleTypes",
+        "header": "זיהוי רכב צבאי - רכבים חומים",
+        "text": "סוגי רכבים חומים",
+        "image": "media/brown-car-plate-on-the-side.svg",
+        "vehicles": [
+            {
+                "title": "",
+                "image": "media/brown-car-1.jpeg"
+            },
+            {
+                "title": "",
+                "image": "media/brown-car-2.jpeg"
+            },
+            {
+                "title": "",
+                "image": "media/brown-car-3.jpeg"
+            },
+            {
+                "title": "",
+                "image": "media/brown-car-4.jpeg"
+            },
+            {
+                "title": "",
+                "image": "media/brown-car-5.jpeg"
+            },
+            {
+                "title": "",
+                "image": "media/brown-car-6.jpeg"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "type": "vehicleGame",
+        "header": "זהה את הרכבים",
+        "introText": "בעמודים הבאים יופיעו לכם רכבים ובכל פעם תצטרכו לזהות את הרכב הנכון לפי דרכי הזיהוי שלמדתם :) בהצלחה!",
+        "startButton": "התחל",
+        "questions": [
+            {
+                "question": "איזה רכב הוא רכב חום?",
+                "correct": 0,
+                "cars": [
+                    {
+                        "image": "media/brown-car-1.svg"
+                    },
+                    {
+                        "image": "media/not-white-car-1.svg"
+                    }
+                ]
+            },
+            {
+                "question": "איזה רכב הוא רכב לבן/צמוד?",
+                "correct": 1,
+                "cars": [
+                    {
+                        "image": "media/not-white-car-2.svg"
+                    },
+                    {
+                        "image": "media/white-car-2.svg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "type": "question",
+        "header": "שאלת ביניים",
+        "question": "מהו נוהל 6?",
+        "answers": [
+            {
+                "text": "נוהל שמופיע 6 פעמים",
+                "correct": false
+            },
+            {
+                "text": "מדבקת איך אני נוהג?",
+                "correct": true
+            },
+            {
+                "text": "נוהל שעושים לפניי כל נסיעה צבאית",
+                "correct": false
+            },
+            {
+                "text": "מדבקה של 01",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "type": "question",
+        "header": "שאלת ביניים",
+        "question": "מנה 3 דוגמאות לזיהוי רכבים צבאיים",
+        "answers": [
+            {
+                "text": "צבע חום, מדבקת רישיון, מדבקת לחץ אוויר",
+                "correct": false
+            },
+            {
+                "text": "להתקשר למספר שרשום ולבדוק אם זה רכב צבאי, אישור בדיקת חורף, מדבקת טסט",
+                "correct": false
+            },
+            {
+                "text": "מדבקת לחץ אוויר, מדבקת דלקן, אישור בדיקת חורף",
+                "correct": true
+            },
+            {
+                "text": "מדבקת טסט, מדבקת רישיון, צבע לבן",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "type": "flipCards",
+        "header": "סוגי רכבים",
+        "text": "לחצו על הקלפים כדי לקרוא!",
+        "cards": [
+            {
+                "front": {
+                    "text": "רכב אישי",
+                    "image": "media/personal-car.svg"
+                },
+                "back": {
+                    "text": "כלי רכב שהוקצה לשימוש עצמי ופרטי (צמוד-לבן). ניתן לראות זאת בכרטיס העבודה.",
+                    "image": null
+                }
+            },
+            {
+                "front": {
+                    "text": "רכב יחידה",
+                    "image": "media/yehida-car.svg"
+                },
+                "back": {
+                    "text": "כלי רכב שהוקצה ליחידה לשימוש צרכיה ואינו משמש כרכב אישי (חום).",
+                    "image": null
+                }
+            },
+            {
+                "front": {
+                    "text": "רכב פינוי",
+                    "image": "media/pinui-car.svg"
+                },
+                "back": {
+                    "text": "רכב המאפשר כניסה לשטח הפעילות עד לקרבת הנפגע ופינויו (חום).",
+                    "image": null
+                }
+            },
+            {
+                "front": {
+                    "text": "רכב ביטחון",
+                    "image": "media/ambulans.svg"
+                },
+                "back": {
+                    "text": "אמבולנס, מכבי אש וכו’ (חום).",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "type": "question",
+        "header": "שאלת ביניים",
+        "question": "הבא 2 דוגמאות לרכב הביטחון",
+        "answers": [
+            {
+                "text": "רכב צמוד, רכב יחידה",
+                "correct": false
+            },
+            {
+                "text": "רכב של מפקד היחידה, אמבולנס",
+                "correct": false
+            },
+            {
+                "text": "אמבולנס, מכבי אש",
+                "correct": true
+            },
+            {
+                "text": "רכב שהצבע שלו הוא חום, מכבי אש",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "type": "driveTypes",
+        "header": "סוגי נסיעות",
+        "text": "לחצו על המכוניות כדי לקרוא!",
+        "drives": [
+            {
+                "title": "נסיעה במהלך אימון",
+                "description": "נסיעה בתפקיד לצורך ביצוע אימון או כחלק ממנו, כאשר הוגדרה בכרטיס העבודה של כלי הרכב - לדוג' מטווחים.",
+                "car": "media/red-car.svg"
+            },
+            {
+                "title": "נסיעה מבצעית",
+                "description": "נסיעה בזמן פעילות מבצעית ובמלחמה.",
+                "car": "media/red-car.svg"
+            },
+            {
+                "title": "נסיעה מנהלתית",
+                "description": "נסיעה בתפקיד, שאינה נסיעה בזמן מבצעי. נסיעה אל מקום הפעילות וחזרה ממנו, תחשב כנסיעה מנהלתית - לדוג' להביא דגלים מהקרייה.",
+                "car": "media/red-car.svg"
+            },
+            {
+                "title": "נסיעה מחוץ למסגרת התפקיד",
+                "description": "נסיעה לצרכים אישיים - לדוג' להחזיר את הילד מהגן.",
+                "car": "media/red-car.svg"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "type": "roadSign",
+        "header": "שעות פעילות - רכב ייעודי",
+        "text1": "בימים א' עד ה', משעה 06:00 עד שעה 22:00.",
+        "img1": "media/sun.svg",
+        "text2": "בימי ו/ערבי חג, משעה 06:00 עד שעה לפני כניסת השבת/חג ומצאת השבת/חג ועד 22:00.",
+        "img2": "media/candle.svg",
+        "text3": "לאחר שעה זו קצין בדרגת סאל (סגן אלוף) יכול לאשר נסיעה.",
+        "image": "media/LightingPole.svg"
+    },
+    {
+        "id": 17,
+        "type": "question",
+        "header": "שאלת ביניים",
+        "question": "מה הן ארבעת סוגי הנסיעות?",
+        "answers": [
+            {
+                "text": "במהלך אימון, מנהלתית, מבצעית, מחוץ למסגרת התפקיד",
+                "correct": true
+            },
+            {
+                "text": "מנהלתית, אישית, במהלך אימון, מעשית",
+                "correct": false
+            },
+            {
+                "text": "מבצעית, פינוי, אישית, יחידתית",
+                "correct": false
+            },
+            {
+                "text": "במהלך אימון, מבצעית, מנהלתית, פרטית",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "type": "question",
+        "header": "שאלת ביניים",
+        "question": "מה שעות הפעילות של רכב חום?",
+        "answers": [
+            {
+                "text": "בימים א'-ד' בשעות 06:00-22:00",
+                "correct": false
+            },
+            {
+                "text": "בימים א'-ה' בשעות 05:30-23:00",
+                "correct": false
+            },
+            {
+                "text": "כל ימות השבוע",
+                "correct": false
+            },
+            {
+                "text": "בימים א'-ה' בשעות 06:00-22:00",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "type": "billBoard",
+        "header": "הוראות לרכב חום",
+        "text": "לחצו על המכוניות כדי ללמוד!",
+        "cars": [
+            {
+                "title": "הדלקת אורות",
+                "text": [
+                    "בכל ימות השנה ייסעו כל נהגי כלי הרכב הצבאיים החומים באורות דולקים במהלך כל שעות היממה.",
+                    "רכב לבן מחויב בהדלקת אורות בשעות הערב בלבד. סייג לכך היא עונת החורף שבה מחויה להדליק אורות בכל שעות היום, בדיוק כמו פקודות התעבורה על רכבים שאינם צה”ליים."
+                ],
+                "img": "media/brown-car-instr-1.svg"
+            },
+            {
+                "title": "נסיעה לאחור",
+                "text": [
+                    "כל רכב חום מחויב בהכוונה לאחור בעזרת מפקד נסיעה. מפקד הנסיעה יעמוד בצידו השמאלי של הרכב במרחק שלא יסכן אותו ובשום פנים לא יעמוד מאחורי הרכב!",
+                    "ישנם נהגים המוגדרים “נהגים עצמאיים” אשר אינם מחויבים במפקד נסיעה ועל כן גם במכווין אחורי."
+                ],
+                "img": "media/brown-car-instr-2.svg"
+            },
+            {
+                "title": "הפקרת רכב חום",
+                "text": [
+                    "אין להשאיר רכב חום ללא השגחה בעת יציאה מבסיס ובין החיילים לרכב הצבאי יישמר קשר עין רציף בכל עת. בנוסף אין להשאיר מסמכים או ציוד קשר העלול להכיל מידע מסווג ברכב וכל עוד מתאפשר יש לקחת אותו איתנו בעת יציאה מהרכב.",
+                    "ניידת סמויה - ניתן להשאיר בלי השגחה ללא אמצעי מזהה.",
+                    "ניידת גלויה - אין להשאיר פתוחה או ללא השגחה.",
+                    "במידה ורכב חום יימצא ללא השגחה - ייחשב כמופקר ויוגש כנגד היחידה דו”ח דמ”ש!"
+                ],
+                "img": "media/brown-car-instr-3.svg"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "type": "twoOptions",
+        "header": "הוראות לרכב  אישי",
+        "text": "ברכב אישי יכולים להיות שני מצבים - לחצו על הגלגלים כדי ללמוד!",
+        "options": [
+            {
+                "type": "notebook",
+                "image": "media/car-wheel1.svg",
+                "title": "אזרח בנוכחות איש הקבע",
+                "text": "ברכב אישי, הקצין יהיה רשאי לאפשר למי שלא חייל (אזרח) להשתמש ברכב צבאי אם ימולאו כל התנאים הבאים:",
+                "checklist": [
+                    "החייל או עובד צהל נמצאים בכלי הרכב בשעת הנסיעה.",
+                    "מלאו לנהג 24 שנים.",
+                    "לנהג רישיון נהיגה בר תוקף, המתאים לסוג כלי הרכב, במשך 3 שנים לפחות.",
+                    "הנהג לא הורשע בעבירה על פקודת התעבורה ועל תקנותיה, שבגינה נשלל ממנו רישיון הנהיגה בפועל לתקופה העולה על חודשיים ימיים, בשלוש השנים האחרונות."
+                ]
+            },
+            {
+                "type": "notebook",
+                "image": "media/car-wheel2.svg",
+                "title": "אזרח ללא נוכחות איש הקבע",
+                "text": "במידה ובמהלך עצירת רכב אישי נוהג בן/בת זוג (אזרח) ברכב צבאי ללא נוכחות איש הקבע, יש לבדוק את המסמכים הבאים:",
+                "checklist": [
+                    "רישיון נהיגה אזרחי בתוקף.",
+                    "כרטיס עבודה חתום.",
+                    "טופס אישור נסיעת בן זוג.",
+                    "תעודת זהות (בדיקה שהנהג מעל גיל 24)."
+                ],
+                "note": "על מנת להגיש דו”ח לבן/בת הזוג הנוהגים ברכב - יש למלא דו”ח “לבן”. דו”ח “לבן” זהו דו”ח מ”צ ביד”צ (בית דין צבאי) רגיל אשר יועבר לרמ”ד-ראש מדור עבירות על ידי מש”ק הדו”חות בבסיס ולאחר מכן לטיפול משטרת ישראל."
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "type": "question",
+        "header": "שאלת סיכום",
+        "question": "האם חייב להיות בכל רכב צבאי 'נוהל 6'?",
+        "answers": [
+            {
+                "text": "לא",
+                "correct": false
+            },
+            {
+                "text": "כן",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "type": "normal",
+        "header": "כל הכבוד!",
+        "header2": "עכשיו אתם מומחים בנושא זיהוי רכבים וסוגי נסיעות",
+        "header3": "בואו נמשיך לנושא הבא!",
+        "image": "media/car-plate-topic-1-end3.svg",
+        "image2": "media/car-plate-topic-2.svg"
+    }
+]

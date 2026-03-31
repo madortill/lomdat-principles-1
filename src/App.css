@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Fredoka";
+    src: url("/Fredoka-VariableFont_wdth,wght.ttf");
+}
+
+@font-face {
+font-family: "Agam";
+src: url("/OHAgamNaim-Regular.ttf");
+}
+
+body {
+    font-family: "Fredoka";
+    direction: rtl;
+    text-align: center;
+    color: #002446;
+}
+
+::selection {
+    /* background-color: #da5952; */
+    /* background-color: #26547E; */
+    background-color: #95193D;
+    color: aliceblue;
+}
