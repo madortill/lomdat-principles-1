@@ -25,7 +25,7 @@ function App() {
   }
 
   return (
-      <BrowserRouter basename="/lomdat-principles">
+      <BrowserRouter basename="/lomdat-principles-1">
         <Routes>
           <Route path="/" element={<OpeningPage />} />
           <Route path="/learning" element={<LearningPage />} />
