@@ -30,7 +30,7 @@ function VehicleGameSlide({ data, unlock, goBack }) {
             } else {
                 setFinished(true)
             }
-        }, 2000)
+        }, 1800)
     }
 
     return (

@@ -11,7 +11,7 @@ import logo from "../../assets/logo.png";
 import tillBlackLogo from "../../assets/till_blacklogo.svg";
 import bushLeft from "../../assets/bush-left.svg";
 import bushRight from "../../assets/bush-right.svg";
-import topic1 from "../../assets/car-plate-topic-1.svg";
+import topic1 from "../../assets/car-plate-topic-1-end3.svg";
 // import topic2 from "../../assets/car-plate-topic-2.svg";
 import aboutIcon from "../../assets/aboutIcon.svg";
 import mapal from "../../assets/keshet.svg";
@@ -120,7 +120,7 @@ function EndPage() {
                     כל הכבוד!! סיימתם את הלומדה :)
                 </div>
 
-                <div className="end-opening-page-header">עכשיו אתם מומחים בנושא זיהוי רכבים וסוגי נסיעות!</div>
+                {/* <div className="end-opening-page-header">עכשיו אתם מומחים בנושא זיהוי רכבים וסוגי נסיעות!</div> */}
 
                 <div className="topics-opening-page-container">
                     <img src={topic1} className="topic" />

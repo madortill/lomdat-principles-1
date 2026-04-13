@@ -71,7 +71,7 @@ function TwoOptionsSlide({ data, unlock, setIsOverlayOpen }) {
       {popup && popup.type === "images" && (
         <div className="popup-overlay">
           <div className="popup">
-            <div className="slide-title">{popup.title}</div>
+            <div className="slide-title popup-title">{popup.title}</div>
             <div className="slide-text">{popup.text}</div>
 
             <div className="popup-images">
