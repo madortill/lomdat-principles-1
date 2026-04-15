@@ -21,6 +21,8 @@ function QuestionSlide({ data, onCorrect, isLastQuestion }) {
     // }
 
     function handleAnswer(answer, index) {
+        if (isCorrect) return;
+        
         setSelected(index);
         setIsCorrect(answer.correct);
 

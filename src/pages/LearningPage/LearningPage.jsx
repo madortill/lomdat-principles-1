@@ -102,10 +102,10 @@ function LearningPage() {
     { title: "רכב לבן", slideIndex: 1 },
     { title: "זיהוי רכב צבאי", slideIndex: 2 },
     { title: "סוגי רכבים", slideIndex: 12 },
-    { title: "סוגי נסיעות", slideIndex: 16 },
-    { title: "הוראות לרכב חום", slideIndex: 20 },
-    { title: "הוראות לרכב אישי", slideIndex: 21 },
-    { title: "סיכום", slideIndex: 22 },
+    { title: "סוגי נסיעות", slideIndex: 14 },
+    { title: "הוראות לרכב חום", slideIndex: 18 },
+    { title: "הוראות לרכב אישי", slideIndex: 19 },
+    { title: "סיכום", slideIndex: 21 },
   ];
 
   const renderSlide = () => {
