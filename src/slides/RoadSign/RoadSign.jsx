@@ -6,7 +6,7 @@ function RoadSign({ data }) {
 
         <div className="road-scene-sign">
 
-            <h2>{data.header}</h2>
+            <h2 className="slide-title">{data.header}</h2>
 
             <div className="scene-layout">
 

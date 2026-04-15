@@ -44,7 +44,7 @@ function VehicleGameSlide({ data, unlock, goBack }) {
 
                 <div className="game-intro">
 
-                    <h2 className="slide-title">{data.header}</h2>
+                    <h2 className="slide-title title-game">{data.header}</h2>
 
                     <div className="intro-text">{data.introText}</div>
 
@@ -74,7 +74,7 @@ function VehicleGameSlide({ data, unlock, goBack }) {
 
                 {started && !finished && (
                     <>
-                        <h2 className="slide-title">{data.header}</h2>
+                        <h2 className="slide-title title-game">{data.header}</h2>
 
                         <p className="game-question">
                             {question.question}
