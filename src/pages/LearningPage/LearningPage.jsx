@@ -105,7 +105,7 @@ function LearningPage() {
     { title: "סוגי נסיעות", slideIndex: 14 },
     { title: "הוראות לרכב חום", slideIndex: 18 },
     { title: "הוראות לרכב אישי", slideIndex: 19 },
-    { title: "סיכום", slideIndex: 21 },
+    { title: "סיום", slideIndex: 21 },
   ];
 
   const renderSlide = () => {
